@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bytes & Sweets</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Ainda nao fiz o CSS e javascript -->
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        header {
+            background-color: #9b59b6;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+        h1, h2, h3, h4 {
+            margin: 10px 0;
+        }
+        section {
+            padding: 20px;
+        }
+        .produto {
+            margin-bottom: 30px;
+        }
+        .produto img {
+            width: 200px;
+            height: auto;
+        }
+        .feedback-form {
+            display: grid;
+            gap: 10px;
+        }
+        .feedback-form label {
+            font-weight: bold;
+        }
+        .feedback-form input[type="text"], .feedback-form textarea {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .feedback-form input[type="submit"] {
+            background-color: #9b59b6
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            color: white;
+        }
+        .emoji-btn {
+            font-size: 2rem;
+            cursor: pointer;
+            background: none;
+            border: none;
+            padding: 10px;
+        }
+        .emoji-feedback {
+            margin-top: 10px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bem-vindo(a) ao mundinho Bytes & Sweets!</h1>
+    <p>Aqui, nosso objetivo é adoçar a sua vida com delícias artesanais feitas com muito amor.</p>
+</header>
+
+<section>
+    <h4>Nossas delícias</h4>
+    
+    <div class="produto">
+        <img src="palha-italiana.jpg" alt="Palha italiana de brigadeiro">
+        <h3>Nossa mais amada: Palha italiana de brigadeiro polvilhada em leite ninho</h3>
+        <p>R$4,00</p>
+    </div>
+
+    <div class="produto">
+        <h5>  <img src="alfajor-nutella.jpg" alt= "Alfajor de Nutella"></h5>
+        <h4>O favorito da doceira: Alfajor de Nutella</h4>
+        <p>R$4,00</p>
+    </div>
+
+    <div class="produto">
+    <h5><img src="alfajorbrigadeiro.jpg" alt="Alfajor de brigadeiro"></h5>
+        <h4>A opção pros amantes de alfajor e odiadores de doce de leite: Alfajor de brigadeiro</h4>
+        <p>R$3,50</p>
+    </div>
+
+    <div class="produto">
+    <h5><img src="alfajor-doce-de-leite.jpg" alt="Alfajor de doce de leite"></h5>
+        <h4>O tradicional: Alfajor de doce de leite</h4>
+        <p>R$3,50</p>
+    </div>
+</section>
+
+<section>
+    <h4>Sua opinião é fundamental!</h4>
+    <p>Se você puder, dedicando um tempinho, nos ajude a melhorar a experiência de vocês respondendo a este breve formulário de satisfação.</p>
+    <!-- colocar docinhos pra clicar como se fossem aquelas estrelas de avaliação, perguntando do sabor, variedade e atendimento, além de um espaço opcional para a pessoa escrever o que acha que poderia melhorar e elogio
+e uma parte especifica perguntando sobre a usabilidade do site coloca um desenho de mouse no mesmo esquema dos doces, perguntando se adaptou bem a tela do aparelho, se esta alinhado, travando, e descendo corretamente, além da área opcional de o que poderia melhorar e elogios
+Formulário para cada um dos produtos da loja para o cliente clicar no que comprou. vai ser individual do que o cliente comprou, então ele vai ter que selecionar antes das perguntas aparecerem
+  PALHA ITALIANA de brigadeiro -> gostou da quantidade de biscoito? (sim, na medida) (não, muito pouco) (não, tem de mais)
+  alfajor...
+  Opções para deixar comentários ou sugestões (limitação de resposta por IP. e perguntar se posso compartilhar o feedback na aba de depoimentos -->
+  <form class="feedback-form">
+   
+    <label for="melhorias">O que você acha que poderia melhorar?</label>
+    <textarea id="melhorias" name="melhorias" placeholder="Alguma sugestão de melhoria?"></textarea>
+
+    <label for="elogios">Gostou do nosso trabalho? Deixe um elogio!</label>
+    <textarea id="elogios" name="elogios" placeholder="Deixe um elogio!"></textarea>
+
+    </form>
+</section>
+
+<section>
+    <h4>Sobre mim</h4>
+    <p>Sou uma estudante de engenharia de software, tenho 19 anos, tanto os doces quanto esse site foram feitos por mim com muito carinho e paixão. Estou usando esse site como expansão do meu portfólio, por isso, em nos feedbacks pergunto o que você achou do site e como podemos melhorar. Ao responder às perguntas, você me ajuda a aprimorar tanto como profissional quanto com a experiência que ofereço para vocês. Obrigada por visitar meu site e por apoiar meu trabalho. Espero que você goste e volte sempre!</p>
+</section>
+
+<section>
+    <h4>Missão</h4>
+    <p>Nosso objetivo é oferecer docinhos artesanais de qualidade, feitos com amor e respeito, promovendo a inclusão e a diversidade, enquanto garantimos práticas sustentáveis e éticas em todos os aspectos do nosso trabalho.</p>
+
+    <h4>Visão</h4>
+    <p>Aspiramos ser reconhecidos não apenas pela qualidade dos nossos produtos, mas também pelo nosso compromisso com a sustentabilidade e o bem-estar animal. Queremos inspirar outros a adotar práticas mais responsáveis e inclusivas.</p>
+
+    <h4>Valores</h4>
+    <ul>
+        <li>Inclusão e Diversidade</li>
+        <li>Sustentabilidade</li>
+        <li>Ética e Bem-Estar Animal</li>
+        <li>Responsabilidade Social</li>
+        <li>Qualidade e Paixão</li>
+    </ul>
+</section>
+
+<section>
+    <h4>Objetivo do Dinheiro</h4>
+    <p>Investir no meu futuro emprego como programadora.</p>
+</section>
+
+<section>
+    <h3>Higiene e Validade dos Produtos</h3>
+    <p>Faço a utilização de luvas, toucas e máscaras higiênicas durante a produção. Estou frequentemente higienizando os materiais utilizados para manejo dos alimentos.</p>
+    <p>Quanto ao armazenamento: os Alfajores ficam na geladeira o tempo todo e só saem quando vou vendê-los. Nesse momento, coloco-os dentro de uma bolsa térmica para mantê-los em um ambiente frio. As palhas italianas não podem ser resfriadas, senão afetam o sabor. Por isso, a validade delas é reduzida a no máximo 2 dias. Para não haver desperdício do alimento, eu as faço em menor quantidade, isso vale para o alfajor também.</p>
+</section>
+
+<section>
+    <h4>Depoimentos</h4>
+   <!--(será preenchido com depoimentos dos clientes que responderam o feedback de forma anônim.)-->
+</section>
+
+<section>
+    <h4>Contatos</h4>
+    <p>Informações de contato: email@exemplo.com | Telefone: (xx) xxxx-xxxx</p>
+    <p>Links para Redes Sociais:</p>
+    <p>
+        <a href="https://www.instagram.com/perfil" target="_blank">Instagram</a>
+        <a href="https://www.facebook.com/perfil" target="_blank">Facebook</a>
+    </p>
+</section>
+
+</body>
+</html>
