@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bytes & Sweets</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+<header>
+  <h1>Bem-vindo(a) ao mundinho Bytes & Sweets!</h1>
+  <p>Aqui, nosso objetivo é adoçar a sua vida com delícias artesanais feitas com muito amor.</p>
+</header>
+
+<section>
+  <h4>Nossas delícias</h4>
+
+  <div class="produto">
+    <img src="images/palha-italiana.jpg" alt="Palha italiana de brigadeiro" />
+    <div>
+      <h3>Nossa mais amada: Palha italiana de brigadeiro polvilhada em leite ninho</h3>
+      <p>R$4,00</p>
+    </div>
+  </div>
+
+  <div class="produto">
+    <img src="images/alfajor-nutella.jpg" alt="Alfajor de Nutella" />
+    <div>
+      <h4>O favorito da doceira: Alfajor de Nutella</h4>
+      <p>R$4,00</p>
+    </div>
+  </div>
+
+  <div class="produto">
+    <img src="images/alfajorbrigadeiro.jpg" alt="Alfajor de brigadeiro" />
+    <div>
+      <h4>A opção pros amantes de alfajor e odiadores de doce de leite: Alfajor de brigadeiro</h4>
+      <p>R$3,50</p>
+    </div>
+  </div>
+
+  <div class="produto">
+    <img src="images/alfajor-doce-de-leite.jpg" alt="Alfajor de doce de leite" />
+    <div>
+      <h4>O tradicional: Alfajor de doce de leite</h4>
+      <p>R$3,50</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h4>Sua opinião é fundamental!</h4>
+  <p>Nos ajude a melhorar a experiência respondendo ao formulário abaixo:</p>
+
+  <form class="feedback-form" id="feedbackForm">
+
+    <label>Como você avaliaria o sabor?</label>
+    <div class="emoji-group" data-question="sabor">
+      <button type="button" class="emoji-btn" data-value="😋" aria-label="Delicioso">😋</button>
+      <button type="button" class="emoji-btn" data-value="🙂" aria-label="Bom">🙂</button>
+      <button type="button" class="emoji-btn" data-value="😐" aria-label="Ok">😐</button>
+      <button type="button" class="emoji-btn" data-value="😞" aria-label="Ruim">😞</button>
+    </div>
+
+    <label>Como você avaliaria a variedade?</label>
+    <div class="emoji-group" data-question="variedade">
+      <button type="button" class="emoji-btn" data-value="🍬" aria-label="Ótima variedade">🍬</button>
+      <button type="button" class="emoji-btn" data-value="🍭" aria-label="Boa variedade">🍭</button>
+      <button type="button" class="emoji-btn" data-value="🍫" aria-label="Pouca variedade">🍫</button>
+    </div>
+
+    <label>Como você avaliaria o atendimento?</label>
+    <div class="emoji-group" data-question="atendimento">
+      <button type="button" class="emoji-btn" data-value="👍" aria-label="Excelente">👍</button>
+      <button type="button" class="emoji-btn" data-value="👌" aria-label="Bom">👌</button>
+      <button type="button" class="emoji-btn" data-value="👎" aria-label="Ruim">👎</button>
+    </div>
+
+    <label for="melhorias">O que você acha que poderia melhorar?</label>
+    <textarea id="melhorias" name="melhorias" placeholder="Alguma sugestão de melhoria?"></textarea>
+
+    <label for="elogios">Gostou do nosso trabalho? Deixe um elogio!</label>
+    <textarea id="elogios" name="elogios" placeholder="Deixe um elogio!"></textarea>
+
+    <input type="submit" value="Enviar Feedback" />
+  </form>
+</section>
+
+<section>
+  <h4>Sobre mim</h4>
+  <p>
+    Sou uma estudante de engenharia de software, tenho 19 anos, tanto os doces quanto esse site foram feitos por mim com muito carinho e paixão. Este projeto também faz parte do meu portfólio. Feedbacks são muito bem-vindos!
+  </p>
+</section>
+
+<section>
+  <h4>Missão, Visão e Valores</h4>
+  <p><strong>Missão:</strong> Oferecer docinhos artesanais de qualidade, feitos com amor e respeito, promovendo inclusão, diversidade e sustentabilidade.</p>
+  <p><strong>Visão:</strong> Ser reconhecida não apenas pela qualidade dos produtos, mas pelo compromisso com o bem-estar animal e práticas éticas.</p>
+  <p><strong>Valores:</strong></p>
+  <ul>
+    <li>Inclusão e Diversidade</li>
+    <li>Sustentabilidade</li>
+    <li>Ética e Bem-Estar Animal</li>
+    <li>Responsabilidade Social</li>
+    <li>Qualidade e Paixão</li>
+  </ul>
+</section>
+
+<section>
+  <h4>Objetivo do Dinheiro</h4>
+  <p>Investir no meu futuro como programadora.</p>
+</section>
+
+<section>
+  <h4>Contatos</h4>
+  <p>Email: email@exemplo.com</p>
+  <p>Instagram: <a href="https://www.instagram.com/seu_perfil" target="_blank">clique aqui</a></p>
+</section>
+
+<footer>
+  <p>© 2025 Bytes & Sweets. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
