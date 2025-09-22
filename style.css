@@ -1,0 +1,111 @@
+/* Reset básico */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  color: #333;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+}
+header {
+  background-color: #9b59b6;
+  padding: 30px 20px;
+  text-align: center;
+  color: white;
+}
+section {
+  max-width: 900px;
+  margin: 30px auto;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 0.1);
+  padding: 20px;
+}
+.produto {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 25px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+}
+.produto img {
+  width: 150px;
+  border-radius: 8px;
+}
+.produto p {
+  font-weight: bold;
+  color: #9b59b6;
+  font-size: 1.2rem;
+}
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.feedback-form label {
+  font-weight: 600;
+}
+.feedback-form textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  resize: vertical;
+  font-size: 1rem;
+}
+
+.feedback-form input[type="submit"] {
+  background-color: #9b59b6;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.feedback-form input[type="submit"]:hover {
+  background-color: #8e44ad;
+}
+
+.emoji-btn {
+  font-size: 1.8rem;
+  cursor: pointer;
+  background: none;
+  border: none;
+  margin-right: 10px;
+  transition: transform 0.2s;
+}
+
+.emoji-btn:hover {
+  transform: scale(1.2);
+}
+
+.emoji-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+  font-size: 0.9rem;
+}
+
+a {
+  color: #9b59b6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
