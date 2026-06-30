@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-Application<Bytes-Sweets>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.Bytes.Sweets.Application",
+            "projectName": "Bytes-Sweets",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
