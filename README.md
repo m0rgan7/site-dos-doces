@@ -29,6 +29,10 @@ O projeto tem dois propósitos principais:
 
 ## Tecnologias utilizadas
 
-- HTML5
-- CSS3
-- JavaScript (puro)
+- HTML
+- CSS
+- Java
+- JavaScript
+- Spring Boot
+- Node js
+- TypeScript
